@@ -287,16 +287,16 @@
 //        Console.WriteLine("bunaqa amal yuq"); break;
 //    case '+':
 //        Console.WriteLine(a + " + " + b + " = " + (a + b));
-//        break;
+//    break;
 //    case '-':
 //        Console.WriteLine("a - b = " + (a - b));
-//        break;
+//    break;
 //    case '*':
 //        Console.WriteLine("a * b = " + (a * b));
-//        break;
+//    break;
 //    case '/':
 //        Console.WriteLine("a / b = " + (a / b));
-//        break;
+//    break;
 //}
 //Case - 7
 //double massaBirligi = double.Parse(Console.ReadLine());
@@ -329,6 +329,137 @@
 //        Console.WriteLine(" Bunday ulchov yo'q ");
 //        break;
 //}
+//case-8
+//Console.Write("kun = "); int day = int.Parse(Console.ReadLine());
+//Console.Write("oy = "); int month = int.Parse(Console.ReadLine());
+//switch (month)
+//{
+
+//    case 1:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- yanvar");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 3:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- mart");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 5:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- may");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 7:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- iyul");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 8:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- avgust");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 10:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- oktyabr");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 12:
+//        if (day <= 31)
+//        {
+//            Console.WriteLine(day + "- dekabr");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 4:
+//        if (day < 30)
+//        {
+//            Console.WriteLine(day + "- aprel");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 6:
+//        if (day <= 30)
+//        {
+//            Console.WriteLine(day + "- iyun");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 9:
+//        if (day <= 30)
+//        {
+//            Console.WriteLine(day + "- sentabr");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+
+//    case 11:
+//        if (day <= 30)
+//        {
+//            Console.WriteLine(day + "- noyabr");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    case 2:
+//        if (day <= 28)
+//        {
+//            Console.WriteLine(day + "- fevral");
+//        }
+//        else
+//        {
+//            Console.WriteLine("\akunni tug'ri kiriting ");
+//        }
+//        break;
+//    default: Console.WriteLine("bunday oy mavjud emas"); break;
+//}
+
+
 
 
 
