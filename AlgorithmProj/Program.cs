@@ -276,7 +276,91 @@
 //{
 //    Console.WriteLine(0);
 //}
-//switch Case 5 - misol
+//case1 - misol
+//Console.Write("Enter your week day: "); int weekDay = int.Parse(Console.ReadLine());
+//switch (weekDay)
+//{
+//    case 1:
+//        Console.WriteLine("Dushanba");
+//        break;
+//    case 2:
+//        Console.WriteLine("Seshanba");
+//        break;
+//    case 3:
+//        Console.WriteLine("Chorshanba");
+//        break;
+//    case 4:
+//        Console.WriteLine("Payshanba");
+//        break;
+//    case 5:
+//        Console.WriteLine("Juma");
+//        break;
+//    case 6:
+//        Console.WriteLine("Shanba");
+//        break;
+//    case 7:
+//        Console.WriteLine("Yakshanba");
+//        break;
+//    default:
+//        Console.WriteLine("\aThis is week day not found");
+//        break;
+//}
+//case3 - misol
+//Console.Write("monthNumber = "); int monthNum = int.Parse(Console.ReadLine());
+//switch (monthNum)
+//{
+//    case 12:
+//    case 1:
+//    case 2:
+//        Console.WriteLine("Winter");
+//        break;
+//    case 3:
+//    case 4:
+//    case 5:
+//        Console.WriteLine("Spring");
+//        break;
+//    case 6:
+//    case 7:
+//    case 8:
+//        Console.WriteLine("Summer");
+//        break;
+//    case 9:
+//    case 10:
+//    case 11:
+//        Console.WriteLine("Autumn");
+//        break;
+//    default: Console.WriteLine("\aMonth not found");
+//        break;
+//}
+//case4 - misol
+//Console.Write("monthNumber = "); int monthNum = int.Parse(Console.ReadLine());
+//int a = 0;
+//switch (monthNum)
+//{
+//    case 1:
+//    case 3:
+//    case 5:
+//    case 7:
+//    case 8:
+//    case 10:
+//    case 12:
+//        a = 31;
+//        break;
+//    case 4:
+//    case 6:
+//    case 9:
+//    case 11:
+//        a = 30; break;
+//    case 2:
+//        a = 28;
+//        break;
+//    default:  Console.WriteLine("bunday oy mavjud emas ");break;
+//}
+//if (monthNum < 12)
+//{
+//    Console.WriteLine($"{monthNum}- oy, {a} kundan iborat");
+//}
+//Case5 - misol
 //Console.Write("a = "); double a = double.Parse(Console.ReadLine());
 //char temp = char.Parse(Console.ReadLine());
 //Console.Write("b = "); double b = double.Parse(Console.ReadLine());
@@ -298,7 +382,38 @@
 //        Console.WriteLine("a / b = " + (a / b));
 //    break;
 //}
-//Case - 7
+//case6 - misol
+//double kesmaUzunligi = double.Parse(Console.ReadLine());
+//double tartibRaqami = double.Parse(Console.ReadLine());
+//double a = 0;
+//string temp;
+//switch (tartibRaqami)
+//{
+//    case 1:
+//        a = kesmaUzunligi / 10;
+//        Console.WriteLine(kesmaUzunligi + " desimetr " + a + " metr");
+//        break;
+//    case 2:
+//        a = kesmaUzunligi * 1000;
+//        Console.WriteLine(kesmaUzunligi + " kilometr " + a + " metr");
+//        break;
+//    case 3:
+//        a = kesmaUzunligi * 1;
+//        Console.WriteLine(kesmaUzunligi + " metr " + a + " metr");
+//        break;
+//    case 4:
+//        a = kesmaUzunligi / 1000;
+//        Console.WriteLine(kesmaUzunligi + " millimetr " + a + " metr");
+//        break;
+//    case 5:
+//        a = kesmaUzunligi / 100;
+//        Console.WriteLine(kesmaUzunligi + " santimetr " + a + " metr");
+//        break;
+//    default:
+//        Console.WriteLine("sjhdfjjuhgdfjgh");
+//        break;
+//}
+//Case7 - misol
 //double massaBirligi = double.Parse(Console.ReadLine());
 //double tartibRaqami = double.Parse(Console.ReadLine());
 //double a = 0;
@@ -458,6 +573,8 @@
 //        break;
 //    default: Console.WriteLine("bunday oy mavjud emas"); break;
 //}
+//case9 - misol
+
 
 
 
