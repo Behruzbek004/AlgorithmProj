@@ -574,11 +574,201 @@
 //    default: Console.WriteLine("bunday oy mavjud emas"); break;
 //}
 //case9 - misol
+//case16 - misol
+//Random temp = new Random();
+//Console.Write("Enter your age = "); int age = temp.Next(20, 69); Console.WriteLine(age);
+//string birliklarXonasi, unliklarXonasi;
+//int birlar_xonasi, unlar_xonasi;
+//birlar_xonasi = age % 10;
+//unlar_xonasi = (age / 10) % 10;
+//switch (birlar_xonasi)
+//{
+//    case 1:
+//        birliklarXonasi = " bir "; break;
+//    case 2:
+//        birliklarXonasi = " ikki "; break;
+//    case 3:
+//        birliklarXonasi = " uch "; break;
+//    case 4:
+//        birliklarXonasi = " to'rt "; break;
+//    case 5:
+//        birliklarXonasi = " besh "; break;
+//    case 6:
+//        birliklarXonasi = " olti "; break;
+//    case 7:
+//        birliklarXonasi = " yetti "; break;
+//    case 8:
+//        birliklarXonasi = " sakiz "; break;
+//    case 9:
+//        birliklarXonasi = " to'qiz "; break;
+//    default: birliklarXonasi = string.Empty; break;
+//}
+//switch (unlar_xonasi)
+//{
+//    case 1:
+//        unliklarXonasi = " o'n "; break;
+//    case 2:
+//        unliklarXonasi = " yigirma "; break;
+//    case 3:
+//        unliklarXonasi = " o'tiz "; break;
+//    case 4:
+//        unliklarXonasi = " qirq "; break;
+//    case 5:
+//        unliklarXonasi = " ellik "; break;
+//    case 6:
+//        unliklarXonasi = " oltmish "; break;
+//    default: unliklarXonasi = string.Empty; break;
+//}
+//Console.WriteLine($"{unliklarXonasi}{birliklarXonasi}");
+//case18 - misol
+//Random temp = new Random();
+//Console.Write("Enter your number = "); int number = temp.Next(100, 999); Console.WriteLine(number);
+//string birliklarXonasi, unliklarXonasi,yuziklarXonasi;
+//int birlar_xonasi, unlar_xonasi,yuzlar_xonasi;
+//birlar_xonasi = number % 10;
+//unlar_xonasi = (number / 10) % 10;
+//yuzlar_xonasi = (number / 100);
+//switch (birlar_xonasi)
+//{
+//    case 1:
+//        birliklarXonasi = " bir "; break;
+//    case 2:
+//        birliklarXonasi = " ikki "; break;
+//    case 3:
+//        birliklarXonasi = " uch "; break;
+//    case 4:
+//        birliklarXonasi = " to'rt "; break;
+//    case 5:
+//        birliklarXonasi = " besh "; break;
+//    case 6:
+//        birliklarXonasi = " olti "; break;
+//    case 7:
+//        birliklarXonasi = " yetti "; break;
+//    case 8:
+//        birliklarXonasi = " sakiz "; break;
+//    case 9:
+//        birliklarXonasi = " to'qiz "; break;
+//    default: birliklarXonasi = string.Empty; break;
+//}
+//switch (unlar_xonasi)
+//{
+//    case 1:
+//        unliklarXonasi = " o'n "; break;
+//    case 2:
+//        unliklarXonasi = " yigirma "; break;
+//    case 3:
+//        unliklarXonasi = " o'tiz "; break;
+//    case 4:
+//        unliklarXonasi = " qirq "; break;
+//    case 5:
+//        unliklarXonasi = " ellik "; break;
+//    case 6:
+//        unliklarXonasi = " oltmish "; break;
+//    case 7:
+//        unliklarXonasi = " yetmish "; break;
+//    case 8:
+//        unliklarXonasi = " sakson "; break;
+//    case 9:
+//        unliklarXonasi = " to'qson "; break;
+//    default:
+//        unliklarXonasi = string.Empty; break;
+//}
+//switch (yuzlar_xonasi)
+//{
+//    case 1:
+//        yuziklarXonasi = " bir yuz "; break;
+//    case 2:
+//        yuziklarXonasi = " ikku yuz "; break;
+//    case 3:
+//        yuziklarXonasi = " uch yuz "; break;
+//    case 4:
+//        yuziklarXonasi = " to'rt yuz "; break;
+//    case 5:
+//        yuziklarXonasi = " besh yuz "; break;
+//    case 6:
+//        yuziklarXonasi = " olti yuz "; break;
+//    case 7:
+//        yuziklarXonasi = " yetti yuz "; break;
+//    case 8:
+//        yuziklarXonasi = " sakiz yuz "; break;
+//    case 9:
+//        yuziklarXonasi = " to'qiz yuz "; break;
+//    default:
+//        yuziklarXonasi = string.Empty; break;
+//}
+//Console.WriteLine($"{yuziklarXonasi} {unliklarXonasi} {birliklarXonasi}");
+//case12 - misol
+//Console.Write("komanda= "); double komanda = double.Parse(Console.ReadLine());
+//Console.Write("qiymat= "); double qiymat = double.Parse(Console.ReadLine());
+//double r = 0, d = 0, l = 0, s = 0;
+//switch (komanda)
+//{
+//    case 1:
+//        r = qiymat;
+//        d = 2 * r;
+//        l = 2 * Math.PI * r;
+//        s = Math.PI * Math.Pow(r, 2);
+//        break;
+//    case 2:
+//        d = qiymat;
+//        r = d / 2;
+//        l = d * Math.PI;
+//        s = (Math.PI * Math.Pow(d, 2)) / 4;
+//        break;
+//    case 3:
+//        l = qiymat;
+//        d = l / Math.PI;
+//        r = l / (2 * Math.PI);
+//        s = Math.PI * Math.Pow((l / (2 * Math.PI)), 2);
+//        break;
+//    case 4:
+//        s = qiymat;
+//        d = 2 * Math.Sqrt(s / Math.PI);
+//        r = Math.Sqrt(s / Math.PI);
+//        l = 2 * Math.Sqrt(s * Math.PI);
+//        break;
+//    default:
+//        Console.WriteLine("comanda neto");
+//        break;
+//}
+//Console.WriteLine($"radius = {r}\ndiametr = {d}\nuzunlik = {l}\nyuza = {s}");
+//case13 - misol
+//Console.Write("komanda= "); double komanda = double.Parse(Console.ReadLine());
+//Console.Write("qiymat= "); double qiymat = double.Parse(Console.ReadLine());
+//double c = 0,a = 0,h = 0,S = 0;
+//switch (komanda)
+//{
+//      case 1:
+//        a = qiymat;
+//        c = a * Math.Sqrt(2);
+//        h =(a * Math.Sqrt(2));
+//        S = Math.Pow(a, 2);
+//           break;
+//      case 2:
+//        c = qiymat;
+//        a = c / Math.Sqrt(2);
+//        h = c / 2;
+//        S = (Math.Pow(c, 2)) / 4;
+//           break;
+//      case 3:
+//        h = qiymat;
+//        a = (2 * h) / Math.Sqrt(2);
+//        c = 2 * h;
+//        S = Math.Pow(h, 2);
+//           break;
+//      case 4:
+//        S = qiymat;
+//        a = Math.Sqrt(2 * S);
+//        c = 2 * Math.Sqrt(S);
+//        h = Math.Sqrt(S);
+//           break;
+//           default:Console.WriteLine("Xatoooooooooooooooooo");
+//        break;
+//}
+//Console.WriteLine($"gipatinuza=  {c}\nkatet= {a}\nbalandlik= {h} \nyuza= {S}");
+//Console.WriteLine("=========================================================");
 
-
-
-
-
+ 
 
 
 
